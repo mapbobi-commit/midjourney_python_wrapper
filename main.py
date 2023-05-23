@@ -80,7 +80,7 @@ def make_midjourney_image_request(prompt):
                 .filename.lower()
                 .endswith((".png", ".jpg", ".jpeg", ".gif"))
             ):
-                url_to_image_byte(message.attachment.url)
+                url_to_image_byte(message.attachments[0].url)
                 await bot.close()
 
     bot.run(discord_token)
