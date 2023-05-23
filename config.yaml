@@ -1,0 +1,6 @@
+token:
+  Discord: Token of Discord bot
+  Midjourney: Token of the Account from which you paid MidJourney
+id:
+  server: Server id of where the discord bot is
+  channel: Channel id of where the discord bot is
